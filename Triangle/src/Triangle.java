@@ -94,7 +94,6 @@ public class Triangle {
 		angle2 = Math.toDegrees(Math.asin((mediumSide * Math.sin(Math.toRadians(angle1))) / largestSide));
 		angle3 = 180 - (angle1 + angle2);
 	}
-
 	// need other method Math.toRadians(), Math.toDegrees(), Math.sin(),
 	// Math.asin(), Math.acos()
 }
